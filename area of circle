@@ -1,0 +1,15 @@
+// calculate area of circle using method
+
+public class area {
+
+    static int r = 20;// set the radius value
+
+    public static void circle(){ // created a method for area calculation
+    double area = 3.14 * r * r;
+    System.out.println("Area: " + area);
+    }
+
+    public static void main(String[] args) { // called he method in main function
+        circle();
+    }
+}

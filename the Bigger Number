@@ -1,0 +1,18 @@
+// Create a Method That Returns the Bigger Number
+
+public class nobigorsmall {
+    static int a = 10; // declared the nos
+    static int b = 20;
+    public static void checkno() {
+        if (a > b) {
+            System.out.println("bigger no" +a); //using if else check which no is big
+        } else {
+            System.out.println("bigger no" +b); //print statement
+        }
+    }
+        public static void main(String[] args)
+        {
+            checkno(); // call the method
+        }
+
+}
